@@ -1,0 +1,17 @@
+// Creating user table with columns id,name,email
+
+	CREATE TABLE user (
+ id INT NOT NULL AUTO_INCREMENT,
+ 	 name VARCHAR(255),
+  	email VARCHAR(255),
+  	PRIMARY KEY (id)
+);
+
+//inserting values into tables
+
+	insert into user values (1,'Harsha,'harsha@gmail.com');
+
+//Retrieve all users from the table
+
+	Select * from user;
+
